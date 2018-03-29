@@ -1,112 +1,229 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<title>HomePage</title>
-<head>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
-integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-</head>
-
-
-<style>
-
-	body,h1 
-	{
-		font-family: "Raleway", sans-serif;
-		color: white;
-	
-	}
-	body, html {height: 100%}
-
-	.mynavbarstyle{
-		background: #87cefa;
-		font-family: Lobster, Monospace;
-		text-color: white;
-	}
-	
-	.textstyle{
-	text-align: center;
-	text-color: black;
-	}
-	
-	.bgimg {
-    background-image: url(images/IMG_20171226_161019.jpg);
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-	
-	
-</style>
-
-
-<body class="bgimg">
-
-<nav class="navbar navbar-default mynavbarstyle">
-	<div class="container-fluid">
+	<head>
+		<title>Raul Perez</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<a class="navbar-brand" href="phlwr.com" target="_blank">
-			Go to the other site I am currently working on
-			</a>
-		</div>
+		<link rel="stylesheet" href="assets/css/main.css" />
 		
-		<div class="navbar-collapse navbar-right">			
-			<ul class="nav navbar-nav">
-			<li>
-				<a href="Prolouge/index.html">first</a>
-			</li>
-				
-			<li>
-				<a href="startbootstrap-freelancer-gh-pages/index.html">second</a>
-			</li>
-				
-			<li>
-				<a href="w3css-CV-Template/index.html">third</a>
-			</li>	
-			<li>
-				<a href="https://github.com/PixelAmp" target="_blank"> My GitHub! </a>
-			</li>			
-			</ul>		
-		</div>
-	
-	</div>
-</nav>	
-	
-<div  class="jumbotron textstyle " style= "background-color: rgba(100, 100, 100, 0.1)">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-	<img class="center-block" style="width: 200px; border-radius: 20px" 
-	src="images/Attach1037_20171226_195550.jpg"
-	alt="My Icon!"
-	>
-	<h1>My Portfolio</h1>
-	<p> 
-	Currently under development!<br /> 
-	Click the top right to see different portfolio templates I am looking at using!
-	</p>
-	
-	
-</div>	
-	
-	
-	<!--
-	<div class="w3-display-bottomright w3-padding-large">
-		Check out the temporary <a href="http://raulperez.me/" target="_blank">Store Page</a> 
-	</div>
-  
-	<div class="w3-display-bottomleft w3-padding-large">
-		Check out <a href="http://raulperez.me/" target="_blank">my main website</a> for more information
-	</div>
-	-->
-</body>
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/SmilingRalphSmall.jpg" alt="" /></span>
+							<h1 id="title">Raul Perez</h1>
+							<p>Software Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+							
+							<ul>
+								<li><a href="http://www.phlwr.com/" target="_blank" id="phlwr-link" ><span class="label icon fa-user">Phlwr.com</span></a></li>
+								<li><a href="Downloads/RaulPerezResume.pdf" download id="resume-download" ><span class="label icon fa-user">Download My Resume</span></a></li>								
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://github.com/PixelAmp" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/TheRaulPerez" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="mailto:reperez79@gmail.com?Subject=Message%20From%20Website" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! My name is <strong>Raul Perez</strong>, a Software Engineer<br />
+								based out of the Southern California.</h2>
+								<p>This website hosts my projects and resume<br />
+								Take a look around and find out what I am all about and what I like to do!</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">My Portfolio</a>
+							</footer>
+
+						</div>
+					</section>
+					
+					<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a class="image featured"><img src="images/Working_in_Zion.jpg" alt="" /></a>
+
+							<p>
+							I am dedicated, hardworking, and sociable with a solid background of working well alone and with a team.<br />
+							Technically proficient in C, C++, C#, Xamarin, Python, HTML, Linux, and Windows.<br />
+							Strong communication skills in both English and Spanish.							
+							</p>
+
+						</div>
+					</section>					
+					
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="https://codeday.org/sandiego" class="image fit"><img src="images/Code_Day_Banner.png" alt="" height="100" width="100"/></a>
+										<header>
+											<h3>Top Overall application grand prize of Code Day San Diego 2016</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://www.acm.org/" class="image fit"><img src="https://fleibert.files.wordpress.com/2017/04/association-for-computing-machinery.jpg" alt="" /></a>
+										<header>
+											<h3>Vice President of the San Marcos Chapter of ACM (Association for Computing Machinery)</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a class="image fit"><img src="images/British_Consulate.jpg" alt="" /></a>
+										<header>
+											<h3>Met with the British consulate in the spring of 2017 to discuss Cyber Security in higher education</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://www.csusm.edu/outreach/upwardbound/index.html" class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/TRIO_Upward_Bound.jpg" alt="" /></a>
+										<header>
+											<h3>Volunteered through Upward Bound in the Spring of 2015, mentoring a small group of High School students in creating and programming robots using Arduinos</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="https://github.com/PixelAmp/PythonWorkshop" class="image fit"><img src="images/Workshop_banner.jpg" alt="" /></a>
+										<header>
+											<h3>Hosted a workshop on behalf of ACM to introduce students to programming in Python</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://github.com/PixelAmp" class="image fit"><img src="images/PA.png" alt="" height="400" width="20" /></a>
+										<header>
+											<h3>Pixel Amp</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact me!</h2>
+							</header>
+
+							<p>This contact form gets forwarded right to my email, so I'll see and respond to whatever you send right away!<br />
+							If you want to email me directly, my email address is reperez79@gmail.com <br />
+							Please no soliciting and only send me genuine messages!
+							</p>
+
+							<form method="post" action="https://formspree.io/reperez79@gmail.com">
+								<div class="row">
+									<input type="text" name="_gotcha" style="display:none" />
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div align = "center" class="6u$ 12u$(mobile)" ><input type="text" name="_subject" placeholder="Subject" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+										<input type="hidden" name="_next" value="//site.io/thanks.html" />
+									</div>
+									<input type="hidden" name="_format" value="plain" />
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
